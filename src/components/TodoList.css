@@ -1,0 +1,21 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: #999;
+}
+
+.empty-state p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.empty-hint {
+  font-size: 0.9em !important;
+  color: #bbb;
+}
